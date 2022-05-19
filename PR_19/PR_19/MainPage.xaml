@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR_19.MainPage">
+
+    <StackLayout>
+        <Label Text="Вход" HorizontalOptions="Center"/>
+        <Entry x:Name ="entryLogin" Text="Введите логин"/>
+        <Entry x:Name ="entryPassword" Text="Введите пароль"/>
+        <Button Text="Войти" Clicked="OnButtonClicked"/>
+        <Button Text="Назад" Clicked="OnButtonClicked"/>
+    </StackLayout>
+
+</ContentPage>
